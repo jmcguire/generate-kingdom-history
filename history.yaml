@@ -83,7 +83,7 @@ tags:
   ADVENTURE_SITE:
     description: In the kingdom is an area with potential for adventure
     options:
-      - Abandoned sorcerer’s tower
+      - Abandoned sorcerer's tower
       - Ancient ruined temple
       - A large underground complex
       - A wrecked sailing ship
@@ -198,11 +198,11 @@ tags:
     description: The kingdom has a tense (but not outright hostile) relationship with a nearby neighbour.  If your kingdom acquires an enemy later in its history, or an equitable trade agreement with a neighbour, you might want to have it relate back to this tag.  The tension could have escalated to outright hostility, or perhaps they repaired the relationship and became trading partners, their previous disagreements long forgotten.
 
   TRADE:
-    description: The kingdom has strong trade ties with its neighbours. All common items would be available, as would a lot of rarer items. The kingdom has several large marketplaces and is constantly visited by traders from other nations. If you can’t find something available for purchase in this kingdom, then it is not worth buying.
+    description: The kingdom has strong trade ties with its neighbours. All common items would be available, as would a lot of rarer items. The kingdom has several large marketplaces and is constantly visited by traders from other nations. If you can't find something available for purchase in this kingdom, then it is not worth buying.
 
   TRIBUTE_STATE:
     description: The kingdom has another state or kingdom that pays money or goods as tribute to it.
 
   UNDERDARK:
-    description: A network of sprawling tunnels and deep caverns spreads out beneath the kingdom – a subterranean world populated by strange creatures that have never seen the light of day. However, there is also great potential for wealth. You might consider adding one or two adventure sites that have entrances to the underdark.
+    description: A network of sprawling tunnels and deep caverns spreads out beneath the kingdom - a subterranean world populated by strange creatures that have never seen the light of day. However, there is also great potential for wealth. You might consider adding one or two adventure sites that have entrances to the underdark.
 
