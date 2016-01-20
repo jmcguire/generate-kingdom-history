@@ -26,6 +26,9 @@ class KingdomEvent:
     self.tag_desc    = ''
     self.growing     = False
 
+    self._rank       = 0
+    self._suit       = 0
+
     self.load_config()
 
     self.get_random_event()
@@ -40,7 +43,8 @@ class KingdomEvent:
     """get a random event, and load it into our object"""
     rank = random.randint(1, 13)
     suit = random.randint(0, 3)
-    #print "rank: %d suit: %d" % (rank, suit)
+    self._rank = rank
+    self._suit = suit
 
     #the "Black" suits are beneficial and represent growth, otherwise they
     #represent a hardship
@@ -96,7 +100,6 @@ class Kingdom:
 
 def main(num_events=5):
   kingdom = Kingdom(num_events)
-  events = []
 
   #print out each event
   for event in kingdom.events:
