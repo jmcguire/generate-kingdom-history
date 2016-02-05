@@ -1,0 +1,137 @@
+government:
+
+  name: Anarchy
+  desc: No central government or recognized authority.
+  tags:
+    +Chaos
+
+  name: Aristocracy
+  desc: Rule of select few based on hereditary rights.
+  tags:
+    +Ruler (group)
+
+  name: Autocracy
+  desc: Power is held by a single, self-elected ruler.
+  tags:
+    +Ruler (single)
+
+  name: Democracy
+  desc: Rulership is based on the consent of those being governed.
+  tags:
+    +Ruler (group)
+    +Elections
+
+  name: Fascism
+  desc: Kingdom rules by a totalitarian and corporatist government.
+  tags:
+    +Ruler (single)
+    +Guilds
+    +Military Police
+
+  name: Republic
+  desc: Power resides in elected individuals.
+  tags:
+    +Ruler (group)
+    +Elections
+
+  name: Theocracy
+  desc: A god or deity is recognised as the states supreme ruler.
+  tags:
+    +Ruler (single)
+    –Magic (arcane)
+    +Magic (religious)
+    +Privilege (clerics)
+    +Religion
+    +Military Police
+
+  name: Demarchy
+  desc: A system run by randomly selected decision makers.
+  tags:
+    +Ruler (group)
+    +Lottery
+
+  name: Ethnocracy
+  desc: A type of government where one race or ethnic group holds a disproportionate amount of power.
+  tags:
+    +Ruler (group)
+    +Privilege (race)
+    +Persecuted (race)
+
+  name: Geniocracy
+  desc: A government where members are chosen based on intelligence.
+  tags:
+    +Ruler (group)
+    +Elections
+
+  name: Kleptocracy
+  desc: A type of government focusing on increasing the wealth of its members.
+  tags:
+    +Ruler (group)
+    +Guilds
+
+  name: Mageocracy
+  desc: Rule by those with the most magical power or understanding.
+  tags:
+    +Ruler (group)
+    +Magic (arcane)
+    – Magic (religious)
+    +Privilege (mages)
+    – Religion
+
+  name: Timocracy
+  desc: A ruler is chosen based on the amount of property they own or the degree of honour they hold in their society.
+  tags:
+    +Ruler (single)
+    +Code of Honour
+    +Privilege (land owners)
+
+tags:
+
+  Chaos:
+    desc:
+
+  Code of Honour:
+    desc:
+
+  Elections:
+    desc:
+
+  Guilds:
+    desc:
+
+  Lottery:
+    desc:
+
+  'Magic (arcane)':
+    desc:
+
+  'Magic (religious)':
+    desc:
+
+  'Military Police':
+    desc:
+
+  'Persecuted (race)':
+    desc:
+
+  'Privilege (clerics)':
+    desc:
+
+  'Privilege (land owners)':
+    desc:
+
+  'Privilege (mages)':
+    desc:
+
+  'Privilege (race)':
+    desc:
+
+  'Religion':
+    desc:
+
+  'Ruler (group)':
+    desc:
+
+  'Ruler (single)':
+    desc:
+
