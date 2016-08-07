@@ -74,9 +74,21 @@ display: inline-block;
 margin-left: -1.3em; /* same as padding-left set on li */
 width: 1.3em; /* same as padding-left set on li */
 }
+footer {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+background-color: rgba(0,0,0,.1);
+text-align: center;
+}
 </style>
 <h1> %s </h1>
 %s
+<footer>
+All content copyright <a href="https://roleplayingtips.com/rptn/rpt681-create-kingdoms-history/">Johnn Four</a>. Code by <a href="https://github.com/jmcguire/generate-kingdom-history">Justin McGuire</a>.
+</footer>
 <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
 function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
